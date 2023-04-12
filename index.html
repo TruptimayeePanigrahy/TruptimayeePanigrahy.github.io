@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/72215895a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Trupti</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Project</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+            <li class="nav__item">
+              <a
+                href="./Truptimayee-Panigrahy-Resume.pdf"
+                download
+                id="resume"
+                class="nav__link"
+                style="
+                  border: 1px solid goldenrod;
+                  padding: 10px 20px;
+                  border-radius: 10px;
+                "
+                >Resume<i class="fa-solid fa-download"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- home section -->
+
+    <div id="home">
+      <div class="nav-link home">
+        <div>
+          <p style="margin-top: 60px">Hi, I Am</p>
+
+          <p id="user-detail-name">
+            <span id="name">Truptimayee Panigrahy</span>
+          </p>
+          <h1 id="demo">
+            <span style="color: goldenrod"> I'm A </span
+            ><span id="demo1"></span>
+          </h1>
+        </div>
+      </div>
+      <div id="img" class="nav-link home">
+        <img
+          style="width: 70%; border-radius: 50%; border: 1px solid white"
+          src="./trupti.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  const navToggle = document.getElementById("nav-toggle");
+  const navMenu = document.getElementById("nav-menu");
+
+  navToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+  });
+</script>
+<script src="./index.js"></script>
