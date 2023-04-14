@@ -59,6 +59,11 @@
     padding:7px;
 
   }
+  #resume{
+    border: 1px solid goldenrod;
+      padding: 10px 20px;
+      border-radius: 10px;
+  }
   #resume:hover{
 background-color: goldenrod;
 color: white;
@@ -161,7 +166,7 @@ border-bottom: 2px solid goldenrod;
     color: white;
     text-align: center;
     width: 80%;
-    
+    min-height: 450px;
   }
   .nav-link:nth-child(1){
     text-align: left;
@@ -219,4 +224,80 @@ border-bottom: 2px solid goldenrod;
 }
 #name:hover{
   --_p: 100%
+}
+#about{
+ display: flex;
+ flex-direction: column;
+ width: 90%;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+}
+.about{
+  display: flex;
+justify-content: space-around;
+  margin-top: 70px;
+  text-align: left;
+  align-items: center;
+}
+.about h1{
+color: white;
+border-bottom: 5px solid white;
+padding-bottom: 5px;
+}
+.about div img{
+  width: 70%;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: auto;
+}
+#aboutresume{
+  border: 1px solid goldenrod;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+#aboutresume:hover{
+  background-color: goldenrod;
+  color: white;
+  border: none;
+    }
+    #aboutresume:hover>i{
+      background-color: goldenrod;
+  color: white;
+    }
+
+.about>div:nth-child(2){
+  width: 60%;
+}
+@media screen and (max-width: 950px){
+  #about{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about{
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+align-items: center;
+justify-content: center;
+  }
+  .about div:nth-child(1){
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .about div img{
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .about div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
