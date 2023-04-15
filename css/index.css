@@ -59,17 +59,17 @@
     padding:7px;
 
   }
-  #resume{
+  #resume-link-1{
     border: 1px solid goldenrod;
       padding: 10px 20px;
       border-radius: 10px;
   }
-  #resume:hover{
+  #resume-link-1:hover{
 background-color: goldenrod;
 color: white;
 border: none;
   }
-  #resume:hover>i{
+  #resume-link-1:hover>i{
     background-color: goldenrod;
 color: white;
   }
@@ -193,7 +193,7 @@ border-bottom: 2px solid goldenrod;
   .nav-link:nth-child(1){
     height: 200px;
   }
-  #img{
+  #home-img{
     margin-top: -40px;
   }
   .home p{
@@ -251,17 +251,17 @@ padding-bottom: 5px;
   border: 1px solid white;
   margin: auto;
 }
-#aboutresume{
+#resume-link-2{
   border: 1px solid goldenrod;
   padding: 10px 20px;
   border-radius: 10px;
 }
-#aboutresume:hover{
+#resume-link-2:hover{
   background-color: goldenrod;
   color: white;
   border: none;
     }
-    #aboutresume:hover>i{
+    #resume-link-2:hover>i{
       background-color: goldenrod;
   color: white;
     }
@@ -299,5 +299,63 @@ justify-content: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+#skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.skills:nth-child(1){
+  color: white;
+  font-size: 35px;
+  border-bottom: 5px solid white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.skills{
+
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  column-gap:  120px;
+  row-gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.skills-card-img{
+height:100px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(235, 212, 212);
+  font-weight: bold;
+  margin: 10px;
+}
+.box:hover{
+  transform: scale(1.2);
+ cursor: pointer;
+}
+.skills-card-name{
+  margin: 10px;
+  font-size: 20px;
+}
+@media screen and (max-width: 950px){
+  .skills{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (max-width: 500px){
+  .skills{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
   }
 }
