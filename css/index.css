@@ -308,7 +308,7 @@ justify-content: center;
   align-items: center;
   margin-top: 100px;
 }
-.skills:nth-child(1){
+.navlinkskills:nth-child(1){
   color: white;
   font-size: 35px;
   border-bottom: 5px solid white;
@@ -318,7 +318,7 @@ justify-content: center;
   align-items: center;
   margin: 40px;
 }
-.skills{
+.navlinkskills{
 
   display:grid;
   grid-template-columns: repeat(4,1fr);
@@ -348,13 +348,13 @@ height:100px;
   font-size: 20px;
 }
 @media screen and (max-width: 950px){
-  .skills{
+  .navlinkskills{
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
 }
 @media screen and (max-width: 500px){
-  .skills{
+  .navlinkskillss{
     display: grid;
     grid-template-columns: repeat(1,1fr);
   }
