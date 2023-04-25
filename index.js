@@ -24,10 +24,10 @@ function typeWriter() {
   }
 
 
-  GitHubCalendar(".calendar", "TruptimayeePanigrahy");
+  // GitHubCalendar(".calendar", "TruptimayeePanigrahy");
 
-  GitHubCalendar(".calendar", "TruptimayeePanigrahy", {
-    responsive: true,
-    global_stats: true,
-    tooltips: true,
-  });
+  // GitHubCalendar(".calendar", "TruptimayeePanigrahy", {
+  //   responsive: true,
+  //   global_stats: true,
+  //   tooltips: true,
+  // });
