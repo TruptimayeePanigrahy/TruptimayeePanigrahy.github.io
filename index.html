@@ -15,6 +15,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+
     <script
       src="https://kit.fontawesome.com/72215895a8.js"
       crossorigin="anonymous"
@@ -37,10 +42,10 @@
               <a href="#about" class="nav__link">About</a>
             </li>
             <li class="nav__item">
-              <a href="projects" class="nav__link">Project</a>
+              <a href="#projects" class="nav__link">Project</a>
             </li>
             <li class="nav__item">
-              <a href="skills" class="nav__link">Skills</a>
+              <a href="#skills" class="nav__link">Skills</a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link">Contact</a>
@@ -78,7 +83,7 @@
           </h1>
         </div>
       </div>
-      <div id="home-img" class="nav-link home">
+      <div class="home-img" class="nav-link home">
         <img
           style="width: 70%; border-radius: 50%; border: 1px solid white"
           src="./trupti.png"
@@ -139,7 +144,7 @@
         <div class="skills-card">
           <div class="box">
             <img
-              class="lskills-card-img"
+              class="skills-card-img"
               style="height: 130px"
               src="./LOGO/css-3.svg"
             />
@@ -369,7 +374,71 @@
         </div>
       </div>
     </div>
-    <div id="contact"></div>
+
+    <div id="stats">
+      <h2 class="mid2">Github Stats</h2>
+
+      <div>
+        <img
+          id="github-top-langs"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=TruptimayeePanigrahy&lans-count=4"
+          alt=""
+        />
+
+        <div id="statsimg">
+          <img
+            id="github-stats-card"
+            src="https://github-readme-stats.vercel.app/api?username=TruptimayeePanigrahy&show_icons=true&locale=en"
+            alt=""
+          />
+          <img
+            id="github-streak-stats"
+            src="https://github-readme-streak-stats.herokuapp.com?user=TruptimayeePanigrahy&"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div id="calendar">
+      <h2 class="mid">Github Calendar</h2>
+      <hr />
+      <div class="react-activity-calendar calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+      </div>
+    </div>
+    <div id="contact">
+      <h2 class="mid">Contact</h2>
+
+      <div class="contactflex">
+        <a
+          target="_blank"
+          id="contact-github"
+          href="https://github.com/TruptimayeePanigrahy"
+        >
+          <p><i class="fa fa-github"></i> Github</p>
+        </a>
+      </div>
+      <div class="contactflex">
+        <a
+          target="_blank"
+          id="contact-linkedin"
+          href="https://www.linkedin.com/in/truptimayee-panigrahy/"
+        >
+          <p><i class="fa fa-linkedin"></i> Linkedin</p>
+        </a>
+      </div>
+      <div class="contactflex">
+        <a href="">
+          <p id="contact-phone"><i class="fa fa-phone"></i> +91 9348366692</p>
+        </a>
+      </div>
+      <div class="contactflex">
+        <a target="_blank" id="contact-email">
+          <p><i class="fa fa-envelope"></i> panigrahydeepakkumar27@gmail.com</p>
+        </a>
+      </div>
+    </div>
   </body>
 </html>
 
@@ -382,3 +451,4 @@
   });
 </script>
 <script src="./index.js"></script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>

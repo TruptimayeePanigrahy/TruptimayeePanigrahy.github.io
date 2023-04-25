@@ -22,3 +22,12 @@ function typeWriter() {
       setTimeout(typeWriter, speed);
     }
   }
+
+
+  GitHubCalendar(".calendar", "TruptimayeePanigrahy");
+
+  GitHubCalendar(".calendar", "TruptimayeePanigrahy", {
+    responsive: true,
+    global_stats: true,
+    tooltips: true,
+  });
