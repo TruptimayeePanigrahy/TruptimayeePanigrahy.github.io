@@ -73,7 +73,7 @@ border: none;
     background-color: goldenrod;
 color: white;
   }
-  .nav__link {
+  .nav-link {
     font-size: 1.4rem;
     font-weight:bold;
     color:goldenrod;
@@ -82,7 +82,7 @@ color: white;
     transition: all 0.5s;
   }
   
-  .nav__link:hover {
+  .nav-link:hover {
     color: rgb(196, 142, 6);
     
 
@@ -143,11 +143,11 @@ border-bottom: 2px solid goldenrod;
       margin-bottom: 20px;
     }
   
-    .nav__link {
+    .nav-link {
       font-size: 1.8rem;
       margin: 0px;
     }
-    .nav__link:hover{
+    .nav-link:hover{
      color:rgb(196, 142, 6)
     }
   
