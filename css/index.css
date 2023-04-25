@@ -59,17 +59,17 @@
     padding:7px;
 
   }
-  #resume-link-1{
+  #resume-button-1{
     border: 1px solid goldenrod;
       padding: 10px 20px;
       border-radius: 10px;
   }
-  #resume-link-1:hover{
+  #resume-button-1:hover{
 background-color: goldenrod;
 color: white;
 border: none;
   }
-  #resume-link-1:hover>i{
+  #resume-button-1:hover>i{
     background-color: goldenrod;
 color: white;
   }
@@ -251,17 +251,17 @@ padding-bottom: 5px;
   border: 1px solid white;
   margin: auto;
 }
-#resume-link-2{
+#resume-button-2{
   border: 1px solid goldenrod;
   padding: 10px 20px;
   border-radius: 10px;
 }
-#resume-link-2:hover{
+#resume-button-2:hover{
   background-color: goldenrod;
   color: white;
   border: none;
     }
-    #resume-link-2:hover>i{
+    #resume-button-2:hover>i{
       background-color: goldenrod;
   color: white;
     }
