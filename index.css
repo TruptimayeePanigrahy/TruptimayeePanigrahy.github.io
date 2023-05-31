@@ -126,7 +126,7 @@ html{
 
 .home{
     display: flex;
-    background: url("portimage/image3\ \(2\).jpg") no-repeat ;
+    background: url("https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29kZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") no-repeat ;
     background-size: cover;
     height: 100vh;
     color:#fff;
