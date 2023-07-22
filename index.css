@@ -56,25 +56,25 @@ html{
     }
 }
 #main-nav .logo a{
-    color:#fff;
-    font-size: 35px;
+    color:white;
+    font-size: 40px;
     font-weight: 600;
 }
 #main-nav .logo a span{
-    color:#fff;
+    color:white;
     transition: all 0.3s ease;
 }
 #main-nav.sticky .logo a span{
-   color:#fff;
+   color:white;
 }
 #main-nav .menu li{
     list-style: none;
     display: inline-block;
 }
 #main-nav .menu li a{
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500px;
+    color:white;
+    font-size: 25px;
+    font-weight:600px;
     margin-left: 25px;
   transition: color 0.3s;
 }
@@ -84,7 +84,7 @@ html{
     background-color:transparent;
     padding: 10px;
     border-radius: 5px;
-    color: #fff;
+    color: white;
     font-size: 18px;
     font-weight: 500px;
 }
@@ -107,7 +107,7 @@ html{
 
 }
 #main-nav.sticky .menu li a:hover{
-    color: #fff;
+    color: white;
     transition: color 0.3s;
     border-bottom: 2px solid rgb(192, 12, 138);
     
@@ -115,7 +115,7 @@ html{
  /* menu btn styling */
 
  .menu-btn{
-    color: #fff;
+    color: white;
     font-size: 23px;
     cursor: pointer;
     display: none;
@@ -126,10 +126,10 @@ html{
 
 .home{
     display: flex;
-    background: url("https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29kZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60") no-repeat ;
+    background: url("./images/keyboard4.png") no-repeat ;
     background-size: cover;
     height: 100vh;
-    color:#fff;
+    color:rgb(228, 226, 226);
     min-height: 500px;
     font-family: 'Ubuntu',sans-serif;
 }
@@ -153,7 +153,7 @@ html{
 
 }
 .home .home-content .text-3 span{
-    color: #fff;
+    color: white;
     font-weight: 500;
 
 }
@@ -161,7 +161,7 @@ html{
 .home .home-content a{
     display: inline-block;
     background: transparent;
-    color: #fff;
+    color: white;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
