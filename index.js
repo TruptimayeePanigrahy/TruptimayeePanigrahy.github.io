@@ -63,12 +63,12 @@ $(document).ready(function(){
 
 document.getElementById("resume-link-1").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1wqVJANRNOQ0r1ClyHwGO0vOaf-ZDhfBR/view?usp=sharing"
+    "https://drive.google.com/file/d/1zCvHJLRvxs0nhB4XDpe7I0SxowqMPIhY/view?usp=sharing"
   );
 };
 
 document.getElementById("resume-link-2").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1wqVJANRNOQ0r1ClyHwGO0vOaf-ZDhfBR/view?usp=sharing"
+    "https://drive.google.com/file/d/1zCvHJLRvxs0nhB4XDpe7I0SxowqMPIhY/view?usp=sharing"
   );
 };
