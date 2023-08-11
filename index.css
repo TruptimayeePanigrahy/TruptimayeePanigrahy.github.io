@@ -853,6 +853,21 @@ section .title::after{
     }
 }
 
-
-
-
+/* calendar */
+.react-activity-calendar {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .react-activity-calendar img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Additional styles for centering the calendar */
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
